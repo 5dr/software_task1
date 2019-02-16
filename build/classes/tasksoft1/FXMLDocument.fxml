@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="662.0" style="-fx-background-color: #adf4ff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tasksoft1.FXMLDocumentController">
+   <children>
+      <Pane fx:id="search" prefHeight="477.0" prefWidth="662.0" style="-fx-background-color: #adf4ff;">
+         <children>
+            <JFXTextField fx:id="g_search1" layoutX="265.0" layoutY="384.0" prefHeight="34.0" prefWidth="230.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="LN_search1" layoutX="265.0" layoutY="297.0" prefHeight="34.0" prefWidth="230.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="FN_search1" layoutX="265.0" layoutY="217.0" prefHeight="34.0" prefWidth="230.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="FN_main_search1" labelFloat="true" layoutX="101.0" layoutY="82.0" prefHeight="44.0" prefWidth="290.0" promptText="Enter First Name">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXButton layoutX="442.0" layoutY="79.0" onAction="#search" prefHeight="51.0" prefWidth="107.0" style="-fx-background-color: #03b3ff;" text="Search">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="125.0" layoutY="222.0" prefHeight="34.0" prefWidth="121.0" text="Fierst Name :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="125.0" layoutY="302.0" prefHeight="34.0" prefWidth="121.0" text="last Name :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="125.0" layoutY="389.0" prefHeight="34.0" prefWidth="121.0" text="grade :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="608.0" onAction="#switch_main" prefHeight="44.0" prefWidth="49.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@z8.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </Pane>
+      <Pane fx:id="insert" prefHeight="477.0" prefWidth="662.0" style="-fx-background-color: #adf4ff;">
+         <children>
+            <Label layoutX="108.0" layoutY="122.0" prefHeight="34.0" prefWidth="121.0" text="Fierst Name :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="108.0" layoutY="187.0" prefHeight="34.0" prefWidth="121.0" text="last Name :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="101.0" layoutY="252.0" prefHeight="34.0" prefWidth="121.0" text="grade :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="FN_Insert" layoutX="253.0" layoutY="117.0" prefHeight="34.0" prefWidth="230.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="g_insert" layoutX="253.0" layoutY="182.0" prefHeight="34.0" prefWidth="230.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="LN_insert" layoutX="253.0" layoutY="247.0" prefHeight="34.0" prefWidth="230.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXButton layoutX="319.0" layoutY="343.0" onAction="#insert" prefHeight="51.0" prefWidth="98.0" style="-fx-background-color: #03b3ff;" text="Insert">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="608.0" layoutY="6.0" onAction="#switch_main" prefHeight="44.0" prefWidth="49.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@z8.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </Pane>
+      <Pane fx:id="delete" prefHeight="477.0" prefWidth="662.0" style="-fx-background-color: #adf4ff;">
+         <children>
+            <JFXTextField fx:id="g_delete" layoutX="265.0" layoutY="384.0" prefHeight="34.0" prefWidth="230.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="LN_delete" layoutX="265.0" layoutY="297.0" prefHeight="34.0" prefWidth="230.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="FN_delete" layoutX="265.0" layoutY="217.0" prefHeight="34.0" prefWidth="230.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <Label layoutX="125.0" layoutY="222.0" prefHeight="34.0" prefWidth="121.0" text="Fierst Name :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="125.0" layoutY="302.0" prefHeight="34.0" prefWidth="121.0" text="last Name :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="125.0" layoutY="389.0" prefHeight="34.0" prefWidth="121.0" text="grade :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="320.0" layoutY="117.0" onAction="#delete" prefHeight="51.0" prefWidth="121.0" style="-fx-background-color: #03b3ff;" text="delete">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="607.0" layoutY="4.0" onAction="#switch_main" prefHeight="44.0" prefWidth="49.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@z8.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </Pane>
+      <Pane fx:id="update" prefHeight="477.0" prefWidth="662.0" style="-fx-background-color: #adf4ff;">
+         <children>
+            <JFXTextField fx:id="g_update" layoutX="265.0" layoutY="384.0" prefHeight="34.0" prefWidth="230.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="LN_update" layoutX="265.0" layoutY="297.0" prefHeight="34.0" prefWidth="230.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="FN_update" layoutX="265.0" layoutY="217.0" prefHeight="34.0" prefWidth="230.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXTextField>
+            <Label layoutX="125.0" layoutY="222.0" prefHeight="34.0" prefWidth="121.0" text="Fierst Name :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="125.0" layoutY="302.0" prefHeight="34.0" prefWidth="121.0" text="last Name :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="125.0" layoutY="389.0" prefHeight="34.0" prefWidth="121.0" text="grade :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="320.0" layoutY="104.0" onAction="#update" prefHeight="51.0" prefWidth="121.0" style="-fx-background-color: #03b3ff;" text="Update">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="607.0" layoutY="4.0" onAction="#switch_main" prefHeight="44.0" prefWidth="49.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@z8.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </Pane>
+      <Pane fx:id="main" prefHeight="477.0" prefWidth="662.0" style="-fx-background-color: #adf4ff;">
+         <children>
+            <JFXButton layoutX="100.0" layoutY="39.0" onAction="#switch_insert" prefHeight="200.0" prefWidth="200.0" style="-fx-background-radius: 100; -fx-background-color: #03b3ff;" text="Insert" textFill="#070707">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="383.0" layoutY="263.0" onAction="#switch_delete" prefHeight="200.0" prefWidth="200.0" style="-fx-background-radius: 100; -fx-background-color: #03b3ff;" text="Delete" textFill="#070707">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="100.0" layoutY="263.0" onAction="#switch_update" prefHeight="200.0" prefWidth="200.0" style="-fx-background-radius: 100; -fx-background-color: #03b3ff;" text="Update" textFill="#070707">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="383.0" layoutY="39.0" onAction="#switch_search" prefHeight="200.0" prefWidth="200.0" style="-fx-background-radius: 100; -fx-background-color: #03b3ff;" text="Select" textFill="#070707">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</Pane>
